@@ -24,9 +24,15 @@
 # print(name[4:1:-1])
 # print(name[4::-1])
 
-institude="The kiran academy"
-print(institude[:4:])
-print(institude[4:10:])
-print(institude[4:9:])
-print(institude[10::])
-print(institude[:-8:-1])
+# institude="The kiran academy"
+# print(institude[:4:])
+# print(institude[4:10:])
+# print(institude[4:9:])
+# print(institude[10::])
+# print(institude[:-8:-1])
+
+name="Rahul Ramdas Bhagat"
+a=(name[4::-1])
+b=(name[-8:5:-1])
+c=(name[:-7:-1])
+print(f"{a} {b} {c}")

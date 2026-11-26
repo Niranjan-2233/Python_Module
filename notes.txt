@@ -1,0 +1,14 @@
+variable:- it is use to store data or values
+function:- reusable block of code
+formate method is we give a placeholder in the string and use .format to written a variable data in placeholder
+input:= it is a predefind function in python that takes input from user
+
+eval:- in puthon eval() is build-in function  that returuns the data type of user input. but by default eval gives error on string input beacuse if input is string then it's not mendotry to written eval function
+
+indixing:- it is use to accass the single char. of string
+syntax: var[index]
+
+slicing:- it use to access multiple charector from string or substring fron a string
+syntax:- var[start_index:stop_index:index_value]
+
+method:- it is a block of code it perform operation
