@@ -1,1 +1,0 @@
-print(bool(0.0), bool(0j), bool(None))
