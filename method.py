@@ -23,9 +23,34 @@ print(name.count("a",10,-9))# 10 is start index and -9 is end index
 print(name.split())
 print(name.split(","))
 '''
-name="Niranjan waman"
-name1="    Niranjan waman     "
-print(name)
-print(name1.strip())
-print(name.rstrip("n"))
-print(name.lstrip("N"))
+# name="Niranjan waman"
+# name1="    Niranjan waman     "
+# print(name)
+# print(name1.strip())
+# print(name.rstrip("n"))
+# print(name.lstrip("N"))
+
+# name="Niranjan","waman"
+# print(name.startswith("M"))#False
+# print(name.endswith("n"))#True
+# print(" ".join(name))
+# print(name.center(23,"-"))
+
+# name=["nirajan","somnath","waman"]
+# full_n=" ".join(name)
+# print(full_n)
+
+# name="Nirajan"
+# for char in name:
+#     print(char)
+
+# name="Rahul manohar raut"
+# name1=name.split()
+# for char in name1:
+#     print(char)
+
+course="data analytic,data science,web devlopment,testing"
+s=course.split(",")
+for i in s:
+    print(i)
+    
